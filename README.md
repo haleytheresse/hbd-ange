@@ -88,7 +88,7 @@
 
     <h1>Happy Birthday, Ange!</h1>
 
-    <h2>This is a message that I wrote on December 11, 2023. You have the choice to not read this if you want.</h2>
+    <p>This is a message that I wrote on December 11, 2023. You have the choice to not read this if you want.</p>
 
 <div class="message-box">
 
