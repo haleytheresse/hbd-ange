@@ -20,7 +20,21 @@
             border-radius: 10px;
             margin-bottom: 20px;
         }
-        
+
+          <style>
+    /* Add your CSS styles for comments here */
+    .comment {
+      border: 1px solid #ccc;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+    .reply {
+      margin-left: 20px;
+    }
+    .heart {
+      color: red;
+      cursor: pointer;
+    }
     </style>
 </head>
 <body>
@@ -51,284 +65,58 @@
     <p>Thank you so much for everything, Ange. Thank you for loving me : ) Thank you sa pagpaeexperience sako ani. I have no regrets sa time na nakauban tka and I'm really glad that you were my first love, first kiss, and my first heartbreak. If given a chance, I'd go back to the past to experience it all again. Just so you know, I felt the happiest during the time that I spent with you : ) Thank you so much for making me happy, you probably know namn na bisan unsa pa kagamay imong ginahimo malipay nako, bisan musmile lang ka sako okay na. Mutatak n siguro sako pirme imong smile and imong eyes : ) Thank you sa tanan hugs n kisses nimo mamiss jd nako na tanan, mamiss nako imong kakiat halos d na nako magunitan imong kamot, mamiss nako imong pagkaweird pagdating sa pagkaon, mamiss nako imong laugh, mamiss nako imong pagkahawd sa panglibat, mamiss nako imong humor, miss na jd dy nako tanan. THANK YOUU BAII.</p>
     <p>HAPPY BIRTHDAYYY AGAIN, ANJIII!! I hope maenjoy nimo imong adlaw huhu unta kung sakali mabasa nimo ni saimong bday dli nako maguba na nuon imong adlaw sorryyy hdshahahahah unta naka move on na ta duha pagabot ani nga adlaw pero grabe sd nang 1 month no d ko mana kaya ba PERO UNTA JDDD friendss unta ta please? nakig interact bya jpon ko saimong mga md ron kasi I still want to be friends w u talaga kahit ouchie talaga so much everytime maremember tka ug kung unsa ta dati. You're still as pretty as always : ) I hope you're happy pag mabasa mo na ito, I hope you're healthy, unta dli kaayo ka stressed and drained pero exams namn dy ni hapit ahahaha. Take care of yourself always haa, ayaw kaayo pabisitaha si Kokey saimong kwarto basin mugara ahshahahaha. But just a reminder na it's okayyy to cry, even for the smallest things, valid jd imong feelings always, ayaw isipi na oa ra kaayo ka for feeling your emotions : ) I said dba na if kahilakon ka tungod kay kalibangon ka, hilak lang AHSHAHAHHAHA Sorry dy bai wala nako beside you para icomfort ka pag youre not feeling okay : ( but I will always pray for your safety and peace of mind. Please 🐝 HAPPYYY and do all the things you want in life : ) Don't be too scared to try new things because you'll never know unless you try, dbaaa? If you want something, then try moo, don't let fear hold you back kasi mas sakit mag regret pag nahuman na tanan nga wala to nimo nabuhat or nakuha. But it's okay sad to take your time and think before u decide labaw nag big factor sya saimong life. Even if dli nata ga talk, I genuinely wish you all the best in lifeee and I will always be proud of you (sa kilid2 nalang ko maminaw kumusta na u) unta friends jd ta ane na time hashaha ayaw jd ko kataw i or kacringe ani doh bantay rjd kang Lord. kung naka move on namn ka ani na time ug u like someone else na or naga heal naka IM SO HAPPYYY FOR YOUUU shahahahahaha wala ko ga intend na gubaon imong healing process haa BYEBYEEE TAKE CAREEE I HOPEE ULL HAVE AA SUPERRR HAPPY NA YEAR AHEADD!</p>
     <p>Happy 17th birthdaaaay, Anjii! ^^</p>
-<div class="comment-thread">
-    <!-- Comment 1 start -->
-    <details open class="comment" id="comment-1">
-        <a href="#comment-1" class="comment-border-link">
-            <span class="sr-only">Jump to comment-1</span>
-        </a>
-        <summary>
-            <div class="comment-heading">
-                <div class="comment-voting">
-                    <button type="button">
-                        <span aria-hidden="true">&#9650;</span>
-                        <span class="sr-only">Vote up</span>
-                    </button>
-                    <button type="button">
-                        <span aria-hidden="true">&#9660;</span>
-                        <span class="sr-only">Vote down</span>
-                    </button>
-                </div>
-                <div class="comment-info">
-                    <a href="#" class="comment-author">someguy14</a>
-                    <p class="m-0">
-                        22 points &bull; 4 days ago
-                    </p>
-                </div>
-            </div>
-        </summary>
+   <div id="comments">
+    <!-- Comments will be dynamically added here -->
+  </div>
 
-        <div class="comment-body">
-            <p>
-                This is really great! I fully agree with what you wrote, and this is sure to help me out in the future. Thank you for posting this.
-            </p>
-            <button type="button" data-toggle="reply-form" data-target="comment-1-reply-form">Reply</button>
-            <button type="button">Flag</button>
+  <!-- Comment form -->
+  <form id="commentForm">
+    <textarea id="commentText" placeholder="Write your comment"></textarea><br>
+    <button type="submit">Post Comment</button>
+  </form>
 
-            <!-- Reply form start -->
-            <form method="POST" class="reply-form d-none" id="comment-1-reply-form">
-                <textarea placeholder="Reply to comment" rows="4"></textarea>
-                <button type="submit">Submit</button>
-                <button type="button" data-toggle="reply-form" data-target="comment-1-reply-form">Cancel</button>
-            </form>
-            <!-- Reply form end -->
-        </div>
-
-        <div class="replies">
-            <!-- Comment 2 start -->
-            <details open class="comment" id="comment-2">
-                <a href="#comment-2" class="comment-border-link">
-                    <span class="sr-only">Jump to comment-2</span>
-                </a>
-                <summary>
-                    <div class="comment-heading">
-                        <div class="comment-voting">
-                            <button type="button">
-                                <span aria-hidden="true">&#9650;</span>
-                                <span class="sr-only">Vote up</span>
-                            </button>
-                            <button type="button">
-                                <span aria-hidden="true">&#9660;</span>
-                                <span class="sr-only">Vote down</span>
-                            </button>
-                        </div>
-                        <div class="comment-info">
-                            <a href="#" class="comment-author">randomperson81</a>
-                            <p class="m-0">
-                                4 points &bull; 3 days ago
-                            </p>
-                        </div>
-                    </div>
-                </summary>
-
-                <div class="comment-body">
-                    <p>
-                        Took the words right out of my mouth!
-                    </p>
-                    <button type="button" data-toggle="reply-form" data-target="comment-2-reply-form">Reply</button>
-                    <button type="button">Flag</button>
-
-                    <!-- Reply form start -->
-                    <form method="POST" class="reply-form d-none" id="comment-2-reply-form">
-                        <textarea placeholder="Reply to comment" rows="4"></textarea>
-                        <button type="submit">Submit</button>
-                        <button type="button" data-toggle="reply-form" data-target="comment-2-reply-form">Cancel</button>
-                    </form>
-                    <!-- Reply form end -->
-                </div>
-            </details>
-            <!-- Comment 2 end -->
-
-            <a href="#load-more">Load more replies</a>
-        </div>
-    </details>
-    <!-- Comment 1 end -->
-</div>
-/* 
-    Body, button, comment-thread, and utilities
-
-    Notes:
-        - This section sets some basic styles. You can ignore this part and 
-        go directly to the comment styles.
-*/
-
-* {
-    box-sizing: border-box;
-}
-body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    line-height: 1.4;
-    color: rgba(0, 0, 0, 0.85);
-    background-color: #f9f9f9;
-
-}
-button {
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    appearance: none;
-    font-size: 14px;
-    padding: 4px 8px;
-    color: rgba(0, 0, 0, 0.85);
-    background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-}
-button:hover,
-button:focus,
-button:active {
-    cursor: pointer;
-    background-color: #ecf0f1;
-}
-.comment-thread {
-    width: 700px;
-    max-width: 100%;
-    margin: auto;
-    padding: 0 30px;
-    background-color: #fff;
-    border: 1px solid transparent; /* Removes margin collapse */
-}
-.m-0 {
-    margin: 0;
-}
-.sr-only {
-    position: absolute;
-    left: -10000px;
-    top: auto;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-}
-
-/* Comment */
-
-.comment {
-    position: relative;
-    margin: 20px auto;
-}
-.comment-heading {
-    display: flex;
-    align-items: center;
-    height: 50px;
-    font-size: 14px;
-}
-.comment-voting {
-    width: 20px;
-    height: 32px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-}
-.comment-voting button {
-    display: block;
-    width: 100%;
-    height: 50%;
-    padding: 0;
-    border: 0;
-    font-size: 10px;
-}
-.comment-info {
-    color: rgba(0, 0, 0, 0.5);
-    margin-left: 10px;
-}
-.comment-author {
-    color: rgba(0, 0, 0, 0.85);
-    font-weight: bold;
-    text-decoration: none;
-}
-.comment-author:hover {
-    text-decoration: underline;
-}
-.replies {
-    margin-left: 20px;
-}
-
-/* Adjustments for the comment border links */
-
-.comment-border-link {
-    display: block;
-    position: absolute;
-    top: 50px;
-    left: 0;
-    width: 12px;
-    height: calc(100% - 50px);
-    border-left: 4px solid transparent;
-    border-right: 4px solid transparent;
-    background-color: rgba(0, 0, 0, 0.1);
-    background-clip: padding-box;
-}
-.comment-border-link:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-}
-.comment-body {
-    padding: 0 20px;
-    padding-left: 28px;
-}
-.replies {
-    margin-left: 28px;
-}
-
-/* Adjustments for toggleable comments */
-
-details.comment summary {
-    position: relative;
-    list-style: none;
-    cursor: pointer;
-}
-details.comment summary::-webkit-details-marker {
-    display: none;
-}
-details.comment:not([open]) .comment-heading {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}
-.comment-heading::after {
-    display: inline-block;
-    position: absolute;
-    right: 5px;
-    align-self: center;
-    font-size: 12px;
-    color: rgba(0, 0, 0, 0.55);
-}
-details.comment[open] .comment-heading::after {
-    content: "Click to hide";
-}
-details.comment:not([open]) .comment-heading::after {
-    content: "Click to show";
-}
-
-/* Adjustment for Internet Explorer */
-
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    /* Resets cursor, and removes prompt text on Internet Explorer */
-    .comment-heading {
-        cursor: default;
+  <script>
+    // Function to create a new comment element
+    function createComment(commentText, timestamp) {
+      const commentDiv = document.createElement('div');
+      commentDiv.classList.add('comment');
+      commentDiv.innerHTML = `
+        <p>${commentText}</p>
+        <span>Commented on ${timestamp}</span>
+        <button class="reply">Reply</button>
+        <span class="heart">&hearts;</span>
+      `;
+      return commentDiv;
     }
-    details.comment[open] .comment-heading::after,
-    details.comment:not([open]) .comment-heading::after {
-        content: " ";
-    }
-}
 
-/* Styling the reply to comment form */
+    // Function to handle form submission
+    document.getElementById('commentForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+      const commentText = document.getElementById('commentText').value;
+      const timestamp = new Date().toLocaleString(); // Current date and time
+      const newComment = createComment(commentText, timestamp);
+      document.getElementById('comments').appendChild(newComment);
+      document.getElementById('commentText').value = ''; // Clear input field after posting
+    });
 
-.reply-form textarea {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 16px;
-    width: 100%;
-    max-width: 100%;
-    margin-top: 15px;
-    margin-bottom: 5px;
-}
-.d-none {
-    display: none;
-}
-document.addEventListener(
-    "click",
-    function(event) {
-        var target = event.target;
-        var replyForm;
-        if (target.matches("[data-toggle='reply-form']")) {
-            replyForm = document.getElementById(target.getAttribute("data-target"));
-            replyForm.classList.toggle("d-none");
+    // Function to handle dynamic reply button click (for new replies)
+    document.getElementById('comments').addEventListener('click', function(event) {
+      if (event.target.classList.contains('reply')) {
+        const replyText = prompt('Write your reply');
+        if (replyText !== null && replyText.trim() !== '') {
+          const timestamp = new Date().toLocaleString(); // Current date and time
+          const newReply = createComment(replyText, timestamp);
+          event.target.parentNode.appendChild(newReply);
         }
-    },
-    false
-);
+      }
+    });
+
+    // Function to handle heart button click (for liking comments)
+    document.getElementById('comments').addEventListener('click', function(event) {
+      if (event.target.classList.contains('heart')) {
+        event.target.style.color = 'red'; // Change heart color
+      }
+    });
+  </script>
+</body>
+</html>
