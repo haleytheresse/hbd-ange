@@ -90,6 +90,8 @@
 
     <h2>This is a message that I wrote on December 11, 2023. You have the choice to not read this if you want.</h2>
 
+<div class="message-box">
+    
     <p>Dear Ange,
 
     Hello, happy birthdayyy my idol! natinuod jd atong joke na dli ta muabot saimong bday ba. I miss you so much 🙂 It's been a week since giopen up ko to. Honestly, while ginasulat ko ni ron, I still can't fully accept that we've ended na talaga, even though I was the one nga nag una ug decide na mag let go na. I regret bringing that topic up, but maybe tama lang din to kay magsturya mn jpon ta ato sooner or later, even though I didn't expect it to turn out like this.
