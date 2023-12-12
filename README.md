@@ -7,7 +7,7 @@
         body {
             font-family: Arial, sans-serif;
             margin: 2em;
-            background-color: #f5e1ff; /* Light Purple Background */
+            background-color: #f5e1ff;
         }
 
         h1, h2 {
@@ -15,7 +15,7 @@
         }
 
         .message-box {
-            background-color: #f9f9f9; /* Not-so-grey box */
+            background-color: #f9f9f9;
             padding: 20px;
             border-radius: 10px;
             margin-bottom: 20px;
@@ -94,7 +94,7 @@
 
   <style>
     .paragraph {
-      text-align: justified;
+      text-align: justify;
       text-indent: 30px;
     }
       
