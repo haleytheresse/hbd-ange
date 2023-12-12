@@ -51,8 +51,21 @@
       display: block;
       height: 1cm; 
     }
+      .reply-button {
+  background-color: purple;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reply-button:hover {
+  background-color: #6a0dad;
+}
   </style>
 <body>
+    
   <div class="paragraph">
     <p>Hello, happy birthdayyy my idol! natinuod jd atong joke na dli ta muabot saimong bday ba. I miss you so much 🙂 It's been a week since giopen up ko to. Honestly, while ginasulat ko ni ron, I still can't fully accept that we've ended na talaga, even though I was the one nga nag una ug decide na mag let go na. I regret bringing that topic up, but maybe tama lang din to kay magsturya mn jpon ta ato sooner or later, even though I didn't expect it to turn out like this.</p>
     <p>I'm sorry. Maybe if I had just accepted your response right away, we'd still be okay.  Perooo namnn kasiiii dbaaa I told you paulit ulit na okay lang sa ako na dli paka ready : ( Maybe if gisabot nalang tka dayon and wala nako nafeel na ginatulak moko palayo, we'd still be okay. Siguro kung wala ko nagpadala sakong feelings and we talked about it properly in person, we'd still be okay. Maybe if I had just waited for you, we'd still be okay. I feel like we could have worked through it kung wala lang jd ko nagpadala sakong emotions, that time kase every minute nga mulapas mas gasakit sya ba unya murag mabuang akong utok tapos muabot ug pila ka oras adlaw imong mga reply so halos mamatay na jd ko hahshahah gahulat sd jd ko saimong ingnon ato, gahulat lang jd ko saimo maong nahurt jd ko kada basa nako saimong mga reply na murag dli ga make sense ba perrooo i kneww namn na u r not that good in communicating your feelings pero nag hope pa rin ako. I feel like factor din yun maong nikalit rkog decide ato nga wala nag isip ug tarong, im sorry dapat jd giisturyahan nalang nato to in person pero wala na eh nangyari na tungod kay tanga kaayo ko.</p>
@@ -61,8 +74,6 @@
     <p>HAPPY BIRTHDAYYY AGAIN, ANJIII!! I hope maenjoy nimo imong adlaw huhu unta kung sakali mabasa nimo ni saimong bday dli nako maguba na nuon imong adlaw sorryyy hdshahahahah unta naka move on na ta duha pagabot ani nga adlaw pero grabe sd nang 1 month no d ko mana kaya ba PERO UNTA JDDD friendss unta ta please? nakig interact bya jpon ko saimong mga md ron kasi I still want to be friends w u talaga kahit ouchie talaga so much everytime maremember tka ug kung unsa ta dati. You're still as pretty as always : ) I hope you're happy pag mabasa mo na ito, I hope you're healthy, unta dli kaayo ka stressed and drained pero exams namn dy ni hapit ahahaha. Take care of yourself always haa, ayaw kaayo pabisitaha si Kokey saimong kwarto basin mugara ahshahahaha. But just a reminder na it's okayyy to cry, even for the smallest things, valid jd imong feelings always, ayaw isipi na oa ra kaayo ka for feeling your emotions : ) I said dba na if kahilakon ka tungod kay kalibangon ka, hilak lang AHSHAHAHHAHA Sorry dy bai wala nako beside you para icomfort ka pag youre not feeling okay : ( but I will always pray for your safety and peace of mind. Please 🐝 HAPPYYY and do all the things you want in life : ) Don't be too scared to try new things because you'll never know unless you try, dbaaa? If you want something, then try moo, don't let fear hold you back kasi mas sakit mag regret pag nahuman na tanan nga wala to nimo nabuhat or nakuha. But it's okay sad to take your time and think before u decide labaw nag big factor sya saimong life. Even if dli nata ga talk, I genuinely wish you all the best in lifeee and I will always be proud of you (sa kilid2 nalang ko maminaw kumusta na u) unta friends jd ta ane na time hashaha ayaw jd ko kataw i or kacringe ani doh bantay rjd kang Lord. kung naka move on namn ka ani na time ug u like someone else na or naga heal naka IM SO HAPPYYY FOR YOUUU shahahahahaha wala ko ga intend na gubaon imong healing process haa BYEBYEEE TAKE CAREEE I HOPEE ULL HAVE AA SUPERRR HAPPY NA YEAR AHEADD!</p>
     <p>Happy 17th birthdaaaay, Anjii! ^^</p>
 
-    <div class="message-box">
-        <!-- Your message content here -->
-    </div>
-
-    <a href="mailto:haleytheressetalicug@gmail.com">Reply via Email</a>
+    <div class="reply">
+    
+    <a href="mailto:haleytheressetalicug@gmail.com">Reply</a>
