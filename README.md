@@ -20,25 +20,17 @@
             border-radius: 10px;
             margin-bottom: 20px;
         }
+        .paragraph {
+            text-align: justify;
+            text-indent: 30px;
+        }
 
-            /* Add your CSS styles for comments here */
-    .comment {
-      border: 1px solid #ccc;
-      margin-bottom: 10px;
-      padding: 10px;
-    }
-    .reply, .heart {
-      background-color: #6A0DAD; /* Dark purple background color */
-      color: #fff; /* White text color */
-      border: none;
-      padding: 5px 10px;
-      cursor: pointer;
-      margin-right: 5px;
-    }
-    .heart {
-      color: red;
-    }
-  </style> 
+        .paragraph:after {
+            content: "";
+            display: block;
+            height: 1cm;
+        }
+    </style>
 </head>
 <body>
 
@@ -69,59 +61,8 @@
     <p>HAPPY BIRTHDAYYY AGAIN, ANJIII!! I hope maenjoy nimo imong adlaw huhu unta kung sakali mabasa nimo ni saimong bday dli nako maguba na nuon imong adlaw sorryyy hdshahahahah unta naka move on na ta duha pagabot ani nga adlaw pero grabe sd nang 1 month no d ko mana kaya ba PERO UNTA JDDD friendss unta ta please? nakig interact bya jpon ko saimong mga md ron kasi I still want to be friends w u talaga kahit ouchie talaga so much everytime maremember tka ug kung unsa ta dati. You're still as pretty as always : ) I hope you're happy pag mabasa mo na ito, I hope you're healthy, unta dli kaayo ka stressed and drained pero exams namn dy ni hapit ahahaha. Take care of yourself always haa, ayaw kaayo pabisitaha si Kokey saimong kwarto basin mugara ahshahahaha. But just a reminder na it's okayyy to cry, even for the smallest things, valid jd imong feelings always, ayaw isipi na oa ra kaayo ka for feeling your emotions : ) I said dba na if kahilakon ka tungod kay kalibangon ka, hilak lang AHSHAHAHHAHA Sorry dy bai wala nako beside you para icomfort ka pag youre not feeling okay : ( but I will always pray for your safety and peace of mind. Please 🐝 HAPPYYY and do all the things you want in life : ) Don't be too scared to try new things because you'll never know unless you try, dbaaa? If you want something, then try moo, don't let fear hold you back kasi mas sakit mag regret pag nahuman na tanan nga wala to nimo nabuhat or nakuha. But it's okay sad to take your time and think before u decide labaw nag big factor sya saimong life. Even if dli nata ga talk, I genuinely wish you all the best in lifeee and I will always be proud of you (sa kilid2 nalang ko maminaw kumusta na u) unta friends jd ta ane na time hashaha ayaw jd ko kataw i or kacringe ani doh bantay rjd kang Lord. kung naka move on namn ka ani na time ug u like someone else na or naga heal naka IM SO HAPPYYY FOR YOUUU shahahahahaha wala ko ga intend na gubaon imong healing process haa BYEBYEEE TAKE CAREEE I HOPEE ULL HAVE AA SUPERRR HAPPY NA YEAR AHEADD!</p>
     <p>Happy 17th birthdaaaay, Anjii! ^^</p>
 
-    <div body>
-    
-  <div id="comments">
-      
-    <!-- Comments will be dynamically added here -->
-  </div>
+    <div class="message-box">
+        <!-- Your message content here -->
+    </div>
 
-  <!-- Comment form -->
-  <form id="commentForm">
-    <textarea id="commentText" placeholder="Write your comment"></textarea><br>
-    <button type="submit" class="reply">Post Comment</button>
-  </form>
-
-  <script>
-    // Function to create a new comment element
-    function createComment(commentText, timestamp) {
-      const commentDiv = document.createElement('div');
-      commentDiv.classList.add('comment');
-      commentDiv.innerHTML = `
-        <p>${commentText}</p>
-        <span>Commented on ${timestamp}</span>
-        <button class="reply">Reply</button>
-        <span class="heart">&hearts;</span>
-      `;
-      return commentDiv;
-    }
-
-    // Function to handle form submission
-    document.getElementById('commentForm').addEventListener('submit', function(event) {
-      event.preventDefault();
-      const commentText = document.getElementById('commentText').value;
-      const timestamp = new Date().toLocaleString(); // Current date and time
-      const newComment = createComment(commentText, timestamp);
-      document.getElementById('comments').appendChild(newComment);
-      document.getElementById('commentText').value = ''; // Clear input field after posting
-    });
-
-    // Function to handle dynamic reply button click (for new replies)
-    document.getElementById('comments').addEventListener('click', function(event) {
-      if (event.target.classList.contains('reply')) {
-        const replyText = prompt('Write your reply');
-        if (replyText !== null && replyText.trim() !== '') {
-          const timestamp = new Date().toLocaleString(); // Current date and time
-          const newReply = createComment(replyText, timestamp);
-          event.target.parentNode.appendChild(newReply);
-        }
-      }
-    });
-
-    // Function to handle heart button click (for liking comments)
-    document.getElementById('comments').addEventListener('click', function(event) {
-      if (event.target.classList.contains('heart')) {
-        event.target.style.color = 'red'; // Change heart color
-      }
-    });
-  </script>
+    <a href="mailto:haleytheressetalicug@gmail.com">Reply via Email</a>
