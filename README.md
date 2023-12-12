@@ -20,7 +20,25 @@
             border-radius: 10px;
             margin-bottom: 20px;
         }
-        
+
+            /* Add your CSS styles for comments here */
+    .comment {
+      border: 1px solid #ccc;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+    .reply, .heart {
+      background-color: #6A0DAD; /* Dark purple background color */
+      color: #fff; /* White text color */
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+      margin-right: 5px;
+    }
+    .heart {
+      color: red;
+    }
+  </style> 
 </head>
 <body>
 
