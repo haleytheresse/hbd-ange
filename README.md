@@ -94,12 +94,8 @@
 
   <style>
     .paragraph {
-      text-align: justify;
+      text-align: justified;
       text-indent: 30px;
-    }
-      
-    .paragraph p::first-line {
-      text-indent: 0;
     }
       
     .paragraph:after {
@@ -108,11 +104,9 @@
       height: 1cm; 
     }
   </style>
-</head>
 <body>
   <div class="paragraph">
     <p>Hello, happy birthdayyy my idol! natinuod jd atong joke na dli ta muabot saimong bday ba. I miss you so much 🙂 It's been a week since giopen up ko to. Honestly, while ginasulat ko ni ron, I still can't fully accept that we've ended na talaga, even though I was the one nga nag una ug decide na mag let go na. I regret bringing that topic up, but maybe tama lang din to kay magsturya mn jpon ta ato sooner or later, even though I didn't expect it to turn out like this.</p>
-  </div>
     <p>I'm sorry. Maybe if I had just accepted your response right away, we'd still be okay.  Perooo namnn kasiiii dbaaa I told you paulit ulit na okay lang sa ako na dli paka ready : ( Maybe if gisabot nalang tka dayon and wala nako nafeel na ginatulak moko palayo, we'd still be okay. Siguro kung wala ko nagpadala sakong feelings and we talked about it properly in person, we'd still be okay. Maybe if I had just waited for you, we'd still be okay. I feel like we could have worked through it kung wala lang jd ko nagpadala sakong emotions, that time kase every minute nga mulapas mas gasakit sya ba unya murag mabuang akong utok tapos muabot ug pila ka oras adlaw imong mga reply so halos mamatay na jd ko hahshahah gahulat sd jd ko saimong ingnon ato, gahulat lang jd ko saimo maong nahurt jd ko kada basa nako saimong mga reply na murag dli ga make sense ba perrooo i kneww namn na u r not that good in communicating your feelings pero nag hope pa rin ako. I feel like factor din yun maong nikalit rkog decide ato nga wala nag isip ug tarong, im sorry dapat jd giisturyahan nalang nato to in person pero wala na eh nangyari na tungod kay tanga kaayo ko.</p>
     <p>One week na pero sige jpon kog hilak, wa nako kasabot sakong sarili. I'm acting strong jd and ginadaan nako sa humor ug ginadistract akong sarili pero lisod jd. Akong first time ma heartbroken tungod sakong first love ug first kiss HAHAHAHAHA Ingani dy ang feeling sa maheartbroken no gets ko naaaa. I know na nasakitan sd kag to the max, I'm really sorry : ( Please don't ever blame yourself kase it was never your fault. Choice man nako to tanan, ako mn ang nafall ug grabe saimo hahahah so ako jd ang nagpasakit sakong sarili. It's so hard for me din to accept that it's really over. I can't call you "baby" anymore, I can't message you anytime just because I miss you, I won't hear your chikas, rants, and random thoughts again. I won't be annoyed saimong pagpikon sako ug pagsend ug hadlok na tiktok hahsahahaha, never nako makadungog saimong mga corny na jokes, and I won't be able to say "I love you" anymore : ) I MISS YOU SO MUCHHHHH. karong ang first day sa school since tung 1 week na walay klase kung kanus a to nahitabo, niingon kos mga friends nako na dli pako ready makita ka pero deep inside I was hoping na masugatan tka. Naa gihapon gamaaay na hope nabilin saako hahaha gaampo jpon ko kay Lord na mubalik pero siguro stop na? kung masakitan mn dy ta duha always siguro no dli sya tama pero masakitan mn jd ta dapat dba sa mga ingani pero kaseeee ahhahahahhaaaa i honestly don't know unsaon nako pag move on hehahhaahahhaha</p>
     <p>Thank you so much for everything, Ange. Thank you for loving me : ) Thank you sa pagpaeexperience sako ani. I have no regrets sa time na nakauban tka and I'm really glad that you were my first love, first kiss, and my first heartbreak. If given a chance, I'd go back to the past to experience it all again. Just so you know, I felt the happiest during the time that I spent with you : ) Thank you so much for making me happy, you probably know namn na bisan unsa pa kagamay imong ginahimo malipay nako, bisan musmile lang ka sako okay na. Mutatak n siguro sako pirme imong smile and imong eyes : ) Thank you sa tanan hugs n kisses nimo mamiss jd nako na tanan, mamiss nako imong kakiat halos d na nako magunitan imong kamot, mamiss nako imong pagkaweird pagdating sa pagkaon, mamiss nako imong laugh, mamiss nako imong pagkahawd sa panglibat, mamiss nako imong humor, miss na jd dy nako tanan. THANK YOUU BAII.</p>
